@@ -2,9 +2,9 @@
 src=~/AeroFS/Repos
 dst=~/Documents/Research/Sorgenti
 
-host=tatooine
+hostName=tatooine
 name=$1
 
 #hostname -s
 
-ln -s $src/$name-$host $dst/$name
+ln -s $src/$name-$hostName $dst/$name

@@ -1,8 +1,8 @@
 #!/bin/sh
-host=tatooine
+hostName=tatooine
 
 cd ~/AeroFS/Repos/
-for i in *-$host
+for i in *-$hostName
 do
   [ -d $i ] && (cd $i  && [ -d .git ] &&
     {
