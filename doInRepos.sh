@@ -1,5 +1,5 @@
 #!/bin/sh
-hostName=tatooine
+. host.inc
 
 cd ~/AeroFS/Repos/
 for i in *-$hostName

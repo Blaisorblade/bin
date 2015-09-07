@@ -3,6 +3,7 @@
 dst=~/AeroFS/Repos
 
 #cd $src
+. host.inc
 hostName=tatooine
 #hostName=bluevelvet
 list="$@"
