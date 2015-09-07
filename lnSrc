@@ -1,0 +1,10 @@
+#!/bin/sh
+src=~/AeroFS/Repos
+dst=~/Documents/Research/Sorgenti
+
+host=tatooine
+name=$1
+
+#hostname -s
+
+ln -s $src/$name-$host $dst/$name
